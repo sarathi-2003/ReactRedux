@@ -4,6 +4,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { remove } from "../Store/cartSlice";
 
+
 const Cart = () => {
   const dispatch = useDispatch();
   const products = useSelector((state) => state.cart);
